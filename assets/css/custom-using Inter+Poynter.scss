@@ -1,0 +1,123 @@
+/* Custom  */
+
+:root {
+
+
+    /* === Cover / Landing area === */
+    --cover-text-color: #6c4c34;
+    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+    --highlight: #FFC000;
+    --highlight-contrast: var(--cover-text-color);
+    /*inverse colors used for :hover */
+    --highlight-inverse: var(--cover-text-color);
+    --highlight-inverse-contrast: white;
+
+    /* visual guard around title and description, when the feature is enabled */
+    --cover-title-and-description-guard-bg-color: none;
+    --cover-title-text-shadow: none;
+
+    /* === sticky top/left navigation menus === */
+    --sticky-menu-text-color: #FFC000;
+
+    /* === Alternating content (post) sections  === */
+    /* Light section - text color */
+    --section-light-text-color: #6c4c34;
+    /* Light section - background color */
+    --section-light-bg-color: #F7EFE1;
+
+    /* Dark section - text color */
+    --section-dark-text-color: var(--section-light-bg-color);
+    /* Dark section - background color */
+    --section-dark-bg-color: #6c4c34;
+
+    /* Light&Dark section >quote. Suppressive color, compared to 'Light section - text color'*/
+    --section-uni-quote: #6c4c34;
+    /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+    --section-uni-code-bg-color: #e0ded7;
+
+    /* === Single pages=== */
+    --single-page-text-color: var(--section-light-text-color);
+    --single-page-bg-color: var(--section-light-bg-color);
+
+    /* === Footer === */
+    --footer-color-background: #FFC000;
+    --footer-color: #bbc7cc;
+
+    /* === Lists === */
+    /* define list element for unnumbered lists, leave empty for default list element */
+    --ul-li-icon: fa-asterisk;
+
+}
+
+
+@font-face {font-family: 'Poynter Oldstyle Display Narrow';font-weight: normal;font-style: normal;src: url('PoynterOldstyleDisplay-NarRoman.woff2') format("woff2");}
+@font-face {font-family: 'Poynter Oldstyle Display SemiBd';font-weight: 600;font-style: italic;src: url("/fonts/PoynterOldstyleDisplay-SemiBdIt.woff2") format("woff2");}
+@font-face {font-family: 'Poynter Oldstyle Display';font-weight: bold;font-style: normal;src: url("/fonts/PoynterOldstyleDisplay-Bold.woff2") format("woff2");}
+
+
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 100; font-display: swap; src: url("/fonts/Inter-Thin.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 100; font-display: swap; src: url("/fonts/Inter-ThinItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 200; font-display: swap; src: url("/fonts/Inter-ExtraLight.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 200; font-display: swap; src: url("/fonts/Inter-ExtraLightItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 300; font-display: swap; src: url("/fonts/Inter-Light.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 300; font-display: swap; src: url("/fonts/Inter-LightItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("/fonts/Inter-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("/fonts/Inter-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 500; font-display: swap; src: url("/fonts/Inter-MediumItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/Inter-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 600; font-display: swap; src: url("/fonts/Inter-SemiBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("/fonts/Inter-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 700; font-display: swap; src: url("/fonts/Inter-BoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 800; font-display: swap; src: url("/fonts/Inter-ExtraBold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 800; font-display: swap; src: url("/fonts/Inter-ExtraBoldItalic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 900; font-display: swap; src: url("/fonts/Inter-Black.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 900; font-display: swap; src: url("/fonts/Inter-BlackItalic.woff2") format("woff2"); }
+
+
+html {
+    font-family: Inter, sans-serif;
+}
+body {
+    font-family: Inter, sans-serif;
+}
+h1.blog-title, h1.post-title{
+    color: #6c4c34;
+    font-family: 'Poynter Oldstyle Display';
+}
+h2.blog-description, h2.post-title{
+    font-family: 'Poynter Oldstyle Display Narrow';
+}
+h3, h4, h5, h6 {
+    font-family: 'Poynter Oldstyle Display';
+}
+#site-head .blog-description, #site-head.withCenteredImage .blog-description {
+    font-family: 'Poynter Oldstyle Display';
+}
+#site-head a.btn, #site-head.withCenteredImage a.btn {
+    font-family: InterVariable, sans-serif;
+}
+.fa-asterisk{
+    display:none;
+}
+ul.fa-li{
+    list-style-type:none;
+}
+.fa-li {
+    list-style-type:none;
+}
+#site-head .blog-description, #site-head.withCenteredImage .blog-description {
+    font-weight: 600;
+}
+
+#site-head, #site-head.withCenteredImage {
+position: relative;
+display: table;
+width: 100%;
+height: 48%;
+margin-bottom: 0;
+text-align: center;
+color: var(--cover-text-color);
+background-size: cover;
+}
+
