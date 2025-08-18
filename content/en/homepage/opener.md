@@ -3,6 +3,8 @@ title: "You are Welcome"
 weight: 10
 ---
 
+*With practice, the mind stills, the Inner Light shines through ... and we are free.*
+
 The Quiet Room offers an open, safe and free-to-use place to be in silence.\
 Here everyone is welcome to come and practice peace and cultivate harmony.\
 Or just to get some tranquil time.

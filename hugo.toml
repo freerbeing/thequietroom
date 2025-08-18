@@ -84,11 +84,11 @@ title = "The Quiet Room"
     #  url = "tel:+49 1111 555555"
     #  icon = "fa fa-phone"
 
-    # [[params.contacts]]
-    #  label = "email"
-    #  value = "mail@janedoe.com"
-    #  url = "mailto:mail@janedoe.com"
-    #  icon = "fa fa-envelope"
+    [[params.contacts]]
+     label = "email"
+     value = "mail@janedoe.com"
+     url = "mailto:mail@janedoe.com"
+     icon = "fa fa-envelope"
 
     # [[params.contacts]]
     #   label = "GitHub"
@@ -97,11 +97,11 @@ title = "The Quiet Room"
     #   icon = "fa-brands fa-github"
 
     # Add additional contacts here!
-    # [[params.contacts]]
-    #     label = ""
-    #     value = ""
-    #     url = ""
-    #     icon = ""
+     [[params.contacts]]
+         label = "telegram"
+         value = "mytelegramgroup"
+         url = "mytelegramgroup"
+         icon = "fa-brands fa-telegram"
 
 # Define additional languages
 [languages]

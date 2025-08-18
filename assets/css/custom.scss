@@ -111,4 +111,28 @@ text-align: center;
 color: var(--cover-text-color);
 background-size: cover;
 }
+#site-head a.btn, #site-head.withCenteredImage a.btn{
+    padding: 4px 6px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+#header-arrow {
 
+margin: 10px auto;
+text-align: center;
+display: inline-block;
+width: 100%;
+left: 0;
+bottom: 120px;
+cursor: pointer;
+opacity: .6;
+transition: all ease .3s;
+-webkit-transition: all ease .3s;
+-moz-transition: all ease .3s;
+}
+
+#site-head #header-arrow, #site-head.withCenteredImage #header-arrow{
+    font-size: 96px;
+    margin-top: 12px;
+    opacity: .6;
+}

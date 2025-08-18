@@ -9,7 +9,8 @@ header_menu: true
 The main categories of contemplative practice:
 
 #### Freestyle silent practice
-Practice your meditation solo
+Practice your own seated meditation solo
+Or simply sit in quiet
 [more details](freestyle)
 
 #### Vipassana meditation
