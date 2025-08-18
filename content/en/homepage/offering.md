@@ -6,21 +6,24 @@ weight: 20
 header_menu: true
 ---
 
-The main categories of contemplative practice:
+Free space for the following categories of contemplative practice:
 
-#### Freestyle silent practice
-Practice your own seated meditation solo
-Or simply sit in quiet
+#### "Freestyle" silent practice
+Practice your own seated meditation solo.\
+Or simply sit in quiet.\
 [more details](freestyle)
 
 #### Vipassana meditation
-For those who have completed at least one ten-day silent course in the tradition of S.N.Goenka
+For those who have completed at least one ten-day silent course in the tradition of S.N.Goenka.\
 [more details](vipassana)
 
+#### Simple breath meditation
+Led/taught seated-meditation based in breath-awareness\
+[more details](breath)
+
 #### One-to-One Yoga
-Learn to follow the path of Classical Yoga
+Learn to walk the path of Classical Yoga in your daily life.\
 [more details](yoga)
 
-#### Simple led/taught breath meditation
-[more details](breath)
+
 

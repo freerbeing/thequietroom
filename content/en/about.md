@@ -5,6 +5,9 @@ title: "More about The Quiet Room"
 My name is Rich (aka Ricardo)
 TQR is my offering and my service
 
+
+In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.
+
 I'm just a 60 year-old bloke from the south of england
 I'm not an enlightened/ascended master
 But I have been walking the spiritual path with commitment and determination for all my life

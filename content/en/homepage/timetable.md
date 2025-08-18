@@ -7,15 +7,14 @@ header_menu: true
 
 All sessions are "freestyle" unless otherwise stated, as below
 
-| Day       | Morning | Afternoon | Evening |
+| Day       |
 |-----------|---------|-----------|---------|
-| Sunday    |Vipassana 9-10am         |           |         |
-| Monday    |         |           |Vipassana 8-9pm         |
-| Tuesday   |         |           |         |
-| Wednesday |         |Yoga Surgery 10-14           |         |
-| Thursday  |         |           |         |
-| Friday    |         |           |         |
-| Saturday  |   Closed      | Closed          | Closed         |
-
+| Sunday    |Vipassana 09.00 > 10.15
+| Monday    |Vipassana 20.00 > 21.15
+| Tuesday   |
+| Wednesday |Yoga Surgery 10.00 > 16.00
+| Thursday  |
+| Friday    |
+| Saturday  |   Closed
 
 The Quiet Room may be closed at random times at my discretion
