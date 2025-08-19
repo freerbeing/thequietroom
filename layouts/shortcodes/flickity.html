@@ -1,0 +1,61 @@
+{{ if not (.Page.Scratch.Get "flickityAssetsIncluded") }}
+
+  {{ $flickityCSS := resources.Get "css/flickity.min.css" | minify | fingerprint }}
+  {{ $flickityJS := resources.Get "js/flickity.pkgd.min.js" | minify | fingerprint }}
+
+  <style>
+    .gallery {
+      margin-top: 1.2em;
+      background: #6c4c34;
+    }
+    .gallery-cell {
+      width: 300px;
+      margin-right: 10px;
+      background: #F7EFE1;
+      border-radius: 5px;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #6c4c34;
+    }
+    .gallery-cell h3 {
+      margin-top: 0;
+      font-size: 1.0em;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .gallery-cell p {
+      font-size: 1em;
+      line-height: 1.4;
+      font-weight: 400;
+      text-align: right;
+    }
+  </style>
+
+  <link rel="stylesheet" href="{{ $flickityCSS.RelPermalink }}" />
+  <script src="{{ $flickityJS.RelPermalink }}"></script>
+
+  {{ .Page.Scratch.Set "flickityAssetsIncluded" true }}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elem = document.querySelector('.js-flickity');
+      new Flickity(elem, {
+        wrapAround: true,
+        autoPlay: 3000,
+        pauseAutoPlayOnHover: true
+      });
+    });
+  </script>
+
+{{ end }}
+
+<div class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "autoPlay": 3000}'>
+  {{ range site.Data.textslides.slides }}
+    <div class="gallery-cell">
+      <h3>{{ .title }}</h3>
+      <p>{{ .content }}</p>
+    </div>
+  {{ else }}
+    <p>No slides found in data file.</p>
+  {{ end }}
+</div>

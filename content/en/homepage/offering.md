@@ -6,24 +6,23 @@ weight: 20
 header_menu: true
 ---
 
-Free space for the following categories of contemplative practice:
+*Open space for the following:*
 
+-----------------------------------
 #### "Freestyle" silent practice
-Practice your own seated meditation solo.\
-Or simply sit in quiet.\
+Practice your own seated meditation solo.
+Or simply sit in quiet.
 [more details](freestyle)
-
+|-----------------------------------
 #### Vipassana meditation
-For those who have completed at least one ten-day silent course in the tradition of S.N.Goenka.\
+For those who have completed at least one ten-day silent course in the tradition of S.N.Goenka.
 [more details](vipassana)
-
+|-----------------------------------
 #### Simple breath meditation
-Led/taught seated-meditation based in breath-awareness\
+Led/taught seated-meditation based in breath-awareness.
 [more details](breath)
-
+|-----------------------------------
 #### One-to-One Yoga
-Learn to walk the path of Classical Yoga in your daily life.\
+Learn to walk the path of Classical Yoga in your daily life.
 [more details](yoga)
-
-
-
+|-----------------------------------

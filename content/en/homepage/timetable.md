@@ -1,6 +1,7 @@
 ---
 title: "Weekly Timetable"
 header_menu_title: "Timetable"
+navigation_menu_title: "Timetable"
 weight: 24
 header_menu: true
 ---
