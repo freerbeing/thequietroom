@@ -12,13 +12,16 @@ The Quiet Room offers an open, safe and free-to-use place to be in silence.\
 Here everyone is welcome to come and practice peace and cultivate harmony.\
 Or just to get some still time.
 
-The Quiet Room is dedicated to:
-- Contemplative practice.
-- Exploration of inner space.
-- The path towards our Inmost Reality.
-- Highest Truth.
+--------
 
-May all beings be happy, peaceful and free from suffering.
+The Quiet Room is dedicated to:
+
+*Contemplative practice.\
+Exploration of inner space.\
+The path towards our inmost Reality.\
+Highest Truth.*
+
+***May all beings be happy, peaceful and free from suffering.***
 
  [dedicated pages](about).
 
