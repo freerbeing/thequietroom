@@ -10,7 +10,7 @@ header_menu: true
 
 -----------------------------------
 #### "Freestyle" silent practice
-Practice your own seated meditation.
+Practice your own seated meditation.\
 Or simply sit in silence.
 [more details](freestyle)
 |-----------------------------------
@@ -24,5 +24,9 @@ Led/taught seated-meditation based in breath-awareness.
 |-----------------------------------
 #### One-to-One Yoga/Meditation
 Develop your own personal spiritual practice with ongoing and experienced guidance.
+[more details](yoga)
+|-----------------------------------
+#### Workshops
+Small groups, learning and working.
 [more details](yoga)
 |-----------------------------------
