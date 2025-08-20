@@ -10,8 +10,8 @@ header_menu: true
 
 -----------------------------------
 #### "Freestyle" silent practice
-Practice your own seated meditation solo.
-Or simply sit in quiet.
+Practice your own seated meditation.
+Or simply sit in silence.
 [more details](freestyle)
 |-----------------------------------
 #### Vipassana meditation
@@ -22,7 +22,7 @@ For those who have completed at least one ten-day silent course in the tradition
 Led/taught seated-meditation based in breath-awareness.
 [more details](breath)
 |-----------------------------------
-#### One-to-One Yoga
-Learn to walk the path of Classical Yoga in your daily life.
+#### One-to-One Yoga/Meditation
+Develop your own personal spiritual practice with ongoing and experienced guidance.
 [more details](yoga)
 |-----------------------------------
