@@ -26,7 +26,7 @@ Led/taught seated-meditation based in breath-awareness.
 Develop your own personal spiritual practice with ongoing and experienced guidance.
 [more details](yoga)
 |-----------------------------------
-#### Workshops
-Small groups, learning and working.
+#### Saturday/Weekend Workshops
+Small groups, learning and working together.
 [more details](yoga)
 |-----------------------------------
