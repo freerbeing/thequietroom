@@ -6,6 +6,7 @@ weight: 24
 header_menu: true
 ---
 
+The Quiet Room is open daily from early morning to late evening, except Saturday.
 All sessions are "freestyle" unless otherwise stated, as below
 
 | Day       |
