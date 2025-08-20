@@ -1,5 +1,5 @@
 ---
-title: "Location"
+title: "Where"
 header_menu_title: "Location"
 weight: 36
 header_menu: true

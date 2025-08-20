@@ -41,7 +41,7 @@
       var elem = document.querySelector('.js-flickity');
       new Flickity(elem, {
         wrapAround: true,
-        autoPlay: 3000,
+        autoPlay: 4800,
         pauseAutoPlayOnHover: true
       });
     });
@@ -49,7 +49,7 @@
 
 {{ end }}
 
-<div class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "autoPlay": 3000}'>
+<div class="gallery js-flickity" data-flickity-options='{"wrapAround": true, "autoPlay": 4800, "pageDots": false}'>
   {{ range site.Data.textslides.slides }}
     <div class="gallery-cell">
       <h3>{{ .title }}</h3>
